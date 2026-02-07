@@ -301,7 +301,7 @@ const exams = {
     options: ["Describe behavior in detail", "Represent internal structure", "Visualize relationships between actors and use cases", "Represent flow of activities"],
     answer: 2,
     explanation: "A use case diagram visualizes the relationships between actors and use cases, providing a high-level overview of system functionality."
-  },
+  }
 
 
 
@@ -548,7 +548,7 @@ const exams = {
     options: ["HTML", "CSS", "JavaScript", "Node.js"],
     answer: 3,
     explanation: "Node.js is a server-side JavaScript runtime that enables building scalable and high-performance web applications. It utilizes an event-driven, non-blocking I/O model."
-  },
+  }
   
 
 
@@ -5302,5 +5302,6 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
