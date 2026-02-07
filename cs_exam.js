@@ -1,6 +1,6 @@
 // Exam Data
 const exams = {
-"AMBO" :[
+"AMBO":[
 
   {
     q: "Which phase of the software development life cycle is responsible for gathering and analyzing user requirements?",
@@ -399,7 +399,7 @@ const exams = {
     options: ["Cookies", "Local storage", "Session storage", "IndexedDB"],
     answer: 1,
     explanation: "Local storage is a client-side technique used to store data locally in a user's browser. It provides a larger storage capacity than cookies and can be accessed across multiple browser sessions."
-  }
+  },
 
 
 
@@ -5302,3 +5302,4 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
